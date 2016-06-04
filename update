@@ -1,7 +1,7 @@
 #!/bin/sh
 
-CATEGORIZE_FILE="./categorize.cfg"
-CATEGORY="Graph"
+CATEGORIZE_FILE="$HOME/.arbtt/categorize.cfg"
+CATEGORY="Activity"
 FILTER="\$sampleage <= 2922:00" # Last 4 months
 
 arbtt-stats --categorizefile=$CATEGORIZE_FILE \
