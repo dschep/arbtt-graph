@@ -4,18 +4,24 @@ var display_groups = [];
 display_groups.push([
         "PersonalCoding",
         "ThredeCoding",
-        "EndgameCoding",
+        "WapoCoding",
+]);
+// Misc productive
+display_groups.push([
+        "WorkBrowsing",
+        "Postman",
+        "meld",
+]);
+// Communication
+display_groups.push([
+        "WapoChat",
+        "WapoEmail",
+        "ThredeChat",
+        "ThredeEmail",
+        "PersonalEmail",
 ]);
 // Time wasters
 display_groups.push([
         "PersonalBrowsing",
         "Social",
-]);
-// Communication
-display_groups.push([
-        "EndgameChat",
-        "PersonalEmail",
-        "ThredeChat",
-        "ThredeEmail",
-        "EndgameEmail",
 ]);
