@@ -1,27 +1,30 @@
 // Barcode view settings
 var display_groups = [];
 // Coding
+// Personal
 display_groups.push([
+        "PersonalEmail",
+        "PersonalBrowsing",
         "PersonalCoding",
-        "ThredeCoding",
-        "WapoCoding",
+        "Social",
 ]);
-// Misc productive
+// Work[WaPo]
 display_groups.push([
+        "WapoChat",
+        "WapoEmail",
+        "NonCodingShell",
+        "WapoCoding",
         "WorkBrowsing",
         "Postman",
         "meld",
 ]);
-// Communication
+// Work[Threde]
 display_groups.push([
-        "WapoChat",
-        "WapoEmail",
         "ThredeChat",
         "ThredeEmail",
-        "PersonalEmail",
-]);
-// Time wasters
-display_groups.push([
-        "PersonalBrowsing",
-        "Social",
+        "NonCodingShell",
+        "ThredeCoding",
+        "WorkBrowsing",
+        "Postman",
+        "meld",
 ]);
